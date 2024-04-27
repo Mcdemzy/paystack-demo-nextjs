@@ -5,7 +5,7 @@ import { PaystackButton } from "react-paystack";
 
 const CheckoutPage = () => {
   const publicKey = "pk_test_0e52a63481ec0f032a60b271c0c4ade8ca3f1096";
-  const amount = 1000000;
+  const amount = 10000000;
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
